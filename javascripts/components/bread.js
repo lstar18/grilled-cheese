@@ -16,7 +16,6 @@ const radioButtonEvent = (e) => {
 const makeBreadRadioButtons = () => {
   const allBreads = breadData.getBreads();
   let domString = '';
-
   allBreads.forEach((bread) => {
     domString += '<div class="form-check form-check-inline">';
     domString += `<input class="form-check-input breadRadio" type="radio" name="exampleRadios" id="${bread.id}">`;
